@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:tools="http://schemas.android.com/tools"
+android:paddingBottom="16dp"
+android:paddingLeft="16dp"
+android:paddingRight="16dp"
+android:paddingTop="16dp"
+tools:context="com.example.aishwaryabommisetty.cibo.MainActivity"
+android:orientation="vertical"
+xmlns:android="http://schemas.android.com/apk/res/android">
+<Button
+    android:id="@+id/register"
+    android:layout_width="178dp"
+    android:layout_height="43dp"
+    android:gravity="center"
+    android:text="Register"
+    android:layout_marginTop="16dp"
+    android:layout_marginLeft="16dp"
+
+    android:layout_marginBottom="16dp"
+    android:onClick="reg"/>
+
+<Button
+    android:id="@+id/login"
+    android:layout_width="178dp"
+    android:layout_height="40dp"
+    android:text="Login"
+    android:layout_marginTop="16dp"
+    android:layout_marginLeft="16dp"
+    android:gravity="center"
+    android:onClick="log"/>
+</LinearLayout>
